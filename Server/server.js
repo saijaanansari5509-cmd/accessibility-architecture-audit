@@ -33,8 +33,16 @@ const auditFindings = [
     title: "Accessibility widget keyboard focus",
     severity: "Medium",
     status: "Observed",
-    recommendation:
+        recommendation:
       "Ensure the accessibility widget can be reached and operated using the keyboard."
+  },
+  {
+    id: "WEB-007",
+    title: "Keyboard navigation and focus order",
+    severity: "Medium",
+    status: "Needs verification",
+    recommendation:
+      "Verify logical keyboard focus order and visible focus indicators across interactive elements."
   }
 ];
 
